@@ -1,16 +1,38 @@
-# React + Vite
+# 🏥 Gestión de Pacientes - Node.js, MongoDB y React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación **fullstack** para la gestión de pacientes.  
+Incluye un **backend** con Node.js, Express y MongoDB, y un **frontend** en React.
 
-Currently, two official plugins are available:
+## 🚀 Características
+- Crear, listar, editar y eliminar pacientes.
+- API REST con Express y MongoDB Atlas.
+- Interfaz en React con manejo de estado (useState y useEffect).
+- CRUD completo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías
+- Backend: Node.js, Express, Mongoose
+- Base de datos: MongoDB Atlas
+- Frontend: React, Vite
+- Control de versiones: Git y GitHub
 
-## React Compiler
+## 📦 Instalación
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Clonar repositorio
+```bash
+git clone https://github.com/zharickdeleon/gestion-pacientes.git
+cd gestion-pacientes
 
-## Expanding the ESLint configuration
+cd backend
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+cd frontend
+npm install
+npm run dev
+
+La app estará disponible en:
+
+Backend → http://localhost:5000
+
+Frontend → http://localhost:3000
+
